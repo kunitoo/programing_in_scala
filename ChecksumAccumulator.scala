@@ -1,6 +1,8 @@
-class ChecksumAccumulator {
-  private var sum = 0
-  def add(b: Byte): Unit = sum += b
-  def checksum(): Int = ~(sum & 0xFF) + 1
+import scala.collection.mutable.Map
+object ChecksumAccumulator {
+  private val cache = Map[String, Int]()
+  def calculate(s: String): Int = {
+    s.length
+  }
 }
 
