@@ -1,1 +1,3 @@
-class Rational(val n: Int, val d: Int)
+class Rational(n: Int, d: Int) {
+  println("Created " + n + "/" + d)
+}
