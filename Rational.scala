@@ -1,3 +1,4 @@
+// implicit def intToRational(x: Int) = new Rational(x)
 class Rational(n: Int, d: Int) {
   require(d != 0)
   private val g = gcd(n.abs, d.abs)
